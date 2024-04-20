@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_add_additional_information.xml" value="0.18" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_cpagate_entry_landing_page.xml" value="0.25" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_fcl_truck_entry.xml" value="0.1453125" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_fcl_truck_entry_details.xml" value="0.1" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_gate_in.xml" value="0.12291666666666666" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_gate_landing.xml" value="0.18" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_gate_pass_home.xml" value="0.33" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_gate_pass_payment.xml" value="0.1453125" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_gate_pass_view.xml" value="0.11354166666666667" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_gatein_new.xml" value="0.25" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_help_line.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_import_container_discharge.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_lcl_truck_entry.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_lcl_truck_entry_details.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_login.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_main.xml" value="0.1765625" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_main_web_view.xml" value="0.18885869565217392" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_mobile_no_add.xml" value="0.1453125" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_more_users_data.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_off_doc_trailor_entry_details.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_off_dock_trailor_entry.xml" value="0.11458333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_open_payment.xml" value="0.1765625" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_payment.xml" value="0.1453125" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_pilot_landing_page.xml" value="0.12291666666666666" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_pilot_on_board_to_off_board.xml" value="0.25" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_pilotage_operation.xml" value="0.22" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_report_view.xml" value="0.10208333333333333" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_signature_view.xml" value="0.24146981627296588" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_vessel_details.xml" value="0.1" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_vessel_list.xml" value="0.10416666666666667" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_water_supply.xml" value="0.10833333333333334" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/activity_web_view.xml" value="0.1015625" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/app_bar_main.xml" value="0.1765625" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/item_vessel.xml" value="0.25" />
+        <entry key="..\:/ASIF/OFFICAL/CPATOSAPPRESOURCE/TOS/app/src/main/res/layout/item_vessel_report.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

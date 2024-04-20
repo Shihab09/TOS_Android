@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".gatepass.GatePassHomeActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+  <!--  <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/text_shadow_white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp"
+                    android:clickable="true"
+                    android:layout_centerHorizontal="true"
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    android:thicknessRatio="1.9"
+                    android:gravity="center">
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:layout_margin="5dp"
+
+                            android:src="@drawable/fcl_cont"/>
+
+                        <Button
+                            android:id="@+id/btnYardDeliveryFCL"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_margin="15dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    app:cardCornerRadius="20dp"
+                    android:clickable="true"
+                    android:layout_centerHorizontal="true"
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    android:thicknessRatio="1.9"
+                    android:gravity="center">
+                    <RelativeLayout
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/img1"
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/lcl_cont"/>
+                        <Button
+                            android:id="@+id/btnShedDeliveryLCL"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp"
+                    android:clickable="true"
+                    android:layout_centerHorizontal="true"
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    android:thicknessRatio="1.9"
+                    android:gravity="center">
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/img3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/on_chassis_cot"/>
+
+                        <Button
+                            android:id="@+id/btnOnChassisDeliveryOCD"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp"
+                    android:clickable="true"
+                    android:layout_centerHorizontal="true"
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    android:thicknessRatio="1.9"
+                    android:gravity="center">
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/img4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/offdock_cont"/>
+
+                        <Button
+                            android:id="@+id/btOffDocDelivery"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>   -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="@color/material_on_surface_stroke"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:hint="Enter Visit Number"
+                            app:endIconMode="custom"
+                            app:endIconDrawable="@android:drawable/ic_menu_search"
+                            app:endIconContentDescription=""
+                            android:textColor="@android:color/black">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etTruckVisit"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:baselineAligned="false"
+                                android:textColor="@android:color/black"
+                                android:lines="1"
+                                android:inputType="number"
+                                android:textSize="15sp"
+                                android:maxLines="1"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <Button
+                            android:id="@+id/btnSearch"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="0.28"
+                            android:textSize="12sp"
+                            android:text="Search" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        android:layout_marginBottom="10dp">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="0.5"
+                            app:cardCornerRadius="10dp"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:innerRadius="0dp"
+                            android:shape="ring"
+                            android:thicknessRatio="1.9"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:background="#b2ebf2"
+                                android:layout_height="150dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="70dp"
+                                    android:background="#00838f"/>
+
+                                <ImageView
+                                    android:id="@+id/profile1"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="15dp"
+                                    android:padding="5dp"
+                                    android:src="@drawable/fcl" />
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:id="@+id/list_item1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="50dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/name1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:maxLines="2"
+                                    android:text="Yard Delivery            (FCL)"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@android:color/black"/>
+                            </LinearLayout>
+                            <Button
+                                android:id="@+id/btnYardDeliveryFCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            app:cardCornerRadius="10dp"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:innerRadius="0dp"
+                            android:shape="ring"
+                            android:thicknessRatio="1.9"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:background="#b2ebf2"
+                                android:layout_height="150dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="70dp"
+                                    android:background="#00838f"/>
+
+                                <ImageView
+                                    android:id="@+id/profile2"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="15dp"
+                                    android:padding="5dp"
+                                    android:src="@drawable/lcl" />
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:id="@+id/list_item2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="50dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/name2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:maxLines="2"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    android:text="Shed Delivery              (LCL)"
+                                    android:textColor="@android:color/black"/>
+                            </LinearLayout>
+                            <Button
+                                android:id="@+id/btnShedDeliveryLCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"/>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        android:layout_marginBottom="10dp">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="0.5"
+                            app:cardCornerRadius="10dp"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:innerRadius="0dp"
+                             android:shape="ring"
+                            android:thicknessRatio="1.9"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:background="#b2ebf2"
+                                android:layout_height="150dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="70dp"
+                                    android:background="#00838f"/>
+
+                                <ImageView
+                                    android:id="@+id/profile3"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_marginTop="15dp"
+                                    android:padding="5dp"
+                                    android:src="@drawable/ocd"/>
+
+                                <Button
+                                    android:id="@+id/btnOnChassisDeliveryOCD"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent" />
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:id="@+id/list_item3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="50dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/name3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:maxLines="2"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    android:text="On Chassis Delivery (OCD)"
+                                    android:textColor="@android:color/black"/>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            app:cardCornerRadius="10dp"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:innerRadius="0dp"
+                            android:shape="ring"
+                            android:thicknessRatio="1.9"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:background="#b2ebf2"
+                                android:layout_height="150dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="70dp"
+                                    android:background="#00838f"/>
+
+                                <ImageView
+                                    android:id="@+id/profile4"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_marginTop="15dp"
+                                    android:padding="5dp"
+                                    android:src="@drawable/offdoc"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:id="@+id/list_item4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="40dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/name4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:maxLines="2"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    android:text="Off Dock Delivery"
+                                    android:textColor="@android:color/black"/>
+                            </LinearLayout>
+                           <Button
+                                    android:id="@+id/btOffDocDelivery"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"/>
+
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="0.5"
+                            app:cardCornerRadius="10dp"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:innerRadius="0dp"
+                            android:shape="ring"
+                            android:thicknessRatio="1.9"
+                            android:gravity="center">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:background="#b2ebf2"
+                                android:layout_height="150dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="70dp"
+                                    android:background="#00838f"/>
+
+                                <ImageView
+                                    android:id="@+id/profile5"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_marginTop="15dp"
+                                    android:padding="5dp"
+                                    android:src="@drawable/list"/>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:id="@+id/list_item5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="40dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/name5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:maxLines="2"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    android:text="Gate Pass List"
+                                    android:textColor="@android:color/black"/>
+                            </LinearLayout>
+                            <Button
+                                android:id="@+id/btListOfGatePass"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"/>
+
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/menu_dashboard"/>
+    </group>
+ <item android:title="@string/module_gate" android:id="@+id/module_gate">
+          <menu>
+              <item
+                  android:id="@+id/nav_gatein"
+                  android:icon="@drawable/ic_launcher_background"
+                  android:title="@string/menu_gatein"/>
+              <item
+                  android:id="@+id/nav_gateout"
+                  android:icon="@drawable/ic_launcher_background"
+                  android:title="@string/menu_gateout"/>
+          </menu>
+      </item>
+      <item android:title="@string/module_reeferwater">
+          <menu>
+              <item
+                  android:id="@+id/nav_reefer"
+                  android:icon="@drawable/ic_launcher_background"
+                  android:title="@string/menu_reefer"/>
+              <item
+                  android:id="@+id/nav_water"
+                  android:icon="@drawable/ic_launcher_background"
+                  android:title="@string/menu_water"/>
+          </menu>
+      </item>
+    <item android:title="@string/module_importexport">
+        <menu>
+            <item
+                android:id="@+id/nav_exportload"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_exportload"/>
+            <item
+                android:id="@+id/nav_importdischarge"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_importdischarge"/>
+        </menu>
+    </item>
+    <item android:title="@string/module_assignment">
+        <menu>
+            <item
+                android:id="@+id/nav_assignment_by_container"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_assignment_by_container"/>
+            <item
+                android:id="@+id/nav_assignment_special"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_assignment_special"/>
+            <item
+                android:id="@+id/nav_assignment_all"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_assignment_all"/>
+        </menu>
+    </item>
+    <item android:title="@string/module_pailot">
+        <menu>
+            <item
+                android:id="@+id/nav_incoming"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_incoming"/>
+            <item
+                android:id="@+id/nav_shifting"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_shifting"/>
+            <item
+                android:id="@+id/nav_outgoing"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/menu_outgoing"/>
+        </menu>
+    </item>
+      <item android:title="@string/module_common">
+          <menu>
+              <item
+                      android:id="@+id/nav_setting"
+                      android:icon="@drawable/ic_launcher_background"
+                      android:title="@string/menu_setting"/>
+              <item
+                      android:id="@+id/nav_aboutus"
+                      android:icon="@drawable/ic_launcher_background"
+                      android:title="@string/menu_aboutus"/>
+              <item
+                  android:id="@+id/nav_helpline"
+                  android:icon="@drawable/ic_launcher_background"
+                  android:title="@string/menu_helpline"/>
+              <item
+                  android:id="@+id/nav_logIn"
+                  android:icon="@drawable/ic_launcher_background"
+                  android:title="@string/menu_login"/>
+              <item
+                  android:id="@+id/nav_logout"
+                  android:icon="@drawable/ic_launcher_background"
+                  android:title="@string/menu_logout"/>
+          </menu>
+      </item>
+
+
+<!--    <group>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_footer"-->
+<!--            android:title=""-->
+<!--            app:actionLayout="@layout/nav_footer_main"-->
+<!--            app:showAsAction="never" />-->
+<!--    </group>-->
+
+
+</menu>

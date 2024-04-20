@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="bd.gov.cpatos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity android:name=".publicuser.CPAGateEntryLandingPageActivity" />
+        <activity android:name=".gate.activities.GateinNewActivity" />
+        <activity android:name=".gate.activities.GateLandingActivity" />
+        <activity android:name=".main.MainWebView" />
+        <activity android:name=".signinsignup.ResetPassword" />
+        <activity android:name=".pilot.activities.CancelationActivity" />
+        <activity android:name=".cnf.edo.EdoLandingPageActivity" />
+        <activity android:name=".pilot.activities.PilotageOperation" />
+        <activity android:name=".pilot.activities.reports.ReportActivity" />
+        <activity android:name=".pilot.activities.reports.PilotReportLandingPage" />
+        <activity android:name=".gatepass.GatePassListActivity" />
+        <activity android:name=".gatepass.GatePassViewActivity" />
+        <activity android:name=".gatepass.PaymentActivity" />
+        <activity android:name=".gatepass.OffDockTrailorEntryDetailsActivity" />
+        <activity android:name=".gatepass.OffDockTrailorEntryActivity" />
+        <activity android:name=".gatepass.FclTruckEntryDetailsActivity" />
+        <activity android:name=".gatepass.FclTruckEntryActivity" />
+        <activity android:name=".gatepass.LclTruckEntryDetailsActivity" />
+        <activity android:name=".gatepass.LclTruckEntryActivity" />
+        <activity android:name=".gatepass.GatePassHomeActivity" />
+        <activity android:name=".signinsignup.MoreUsersDataActivity" />
+        <activity android:name=".signinsignup.PinSetActivity" />
+        <activity android:name=".signinsignup.OtpActivity" />
+        <activity android:name=".signinsignup.MobileNoAddActivity" />
+        <activity android:name=".pilot.activities.ReportViewActivity" />
+        <activity android:name=".pilot.activities.FinalSubmitPilotOperationActivity" />
+        <activity android:name=".pilot.activities.PilotOnBoardToOffBoardActivity" />
+        <activity android:name=".pilot.activities.AddAdditionalInformationActivity" />
+        <activity android:name=".pilot.activities.PilotLandingPage" />
+        <activity
+            android:name=".publicuser.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_web_view"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" />
+        <activity android:name=".cnf.CnfDashBoard" />
+        <activity android:name=".gate.activities.GateOutActivity" />
+        <activity android:name=".gate.activities.GateInActivity" />
+        <activity android:name=".pilot.activities.VesselDetailsActivity" />
+        <activity android:name=".pilot.activities.AddVesselActivity" />
+        <activity android:name=".pilot.activities.VesselListTypeWiseActivity" />
+        <activity android:name=".importexport.activities.ImportContainerDischargeActivity" />
+        <activity android:name=".importexport.activities.ExportContainerLoadActivity" />
+        <activity android:name=".assignment.activities.AssignmentContainerList" />
+        <activity android:name=".reeferwater.WaterSupplyActivity" />
+        <activity android:name=".reeferwater.ReeferActivity" />
+        <activity android:name=".signinsignup.LoginActivity" />
+        <activity android:name=".other.activities.HelpLineActivity" />
+        <activity android:name=".other.activities.SettingsActivity" />
+        <activity android:name=".gatepass.OpenPaymentActivity" />
+        <activity android:name=".publicuser.GatePassPaymentActivity" />
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".main.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="bd.gov.cpatos.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+
+        <receiver
+            android:name=".utils.SmsBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <uses-permission
+        android:name="android.permission.BROADCAST_SMS"
+        tools:ignore="ProtectedPermissions" />
+
+</manifest>

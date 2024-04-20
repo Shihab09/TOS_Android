@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">CPATOS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_reset_pass">Reset Password</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+
+    <string name="module_gate">Gate</string>
+    <string name="menu_gatein">Gate In</string>
+    <string name="menu_gateout">Gate Out</string>
+
+    <string name="module_reeferwater">Reffer And Water</string>
+    <string name="menu_reefer">Reefer</string>
+    <string name="menu_water">Water</string>
+
+    <string name="module_importexport">Import And Export</string>
+    <string name="menu_exportload">Export Load</string>
+    <string name="menu_importdischarge">Import Discharge </string>
+
+    <string name="module_assignment">Assignment</string>
+    <string name="menu_assignment_by_container">Assignment By Container</string>
+    <string name="menu_assignment_special">Special Assignment</string>
+    <string name="menu_assignment_all">All Assignment</string>
+
+    <string name="module_pailot">Pailot</string>
+    <string name="menu_incoming">Incoming</string>
+    <string name="menu_shifting">Shifting</string>
+    <string name="menu_outgoing">Outgoing</string>
+
+    <string name="texts1">Search Container No: </string>
+    <string name="etVslName">Vessel Name</string>
+    <string name="etRotation">Rotation No</string>
+    <string name="etSize">Size</string>
+    <string name="etYard">Yard</string>
+    <string name="etMlo">MLO</string>
+    <string name="swConDisCon1">Change Connection(ON/OFF) Of 1</string>
+    <string name="etCon1">Connection 1</string>
+    <string name="etDiscon1">DisConnection 1</string>
+    <string name="head1">Change Conn or Discon Time Of 2</string>
+    <string name="etCon2">Connection 2</string>
+    <string name="etDiscon2">DisConnection 2</string>
+    <string name="head2">Change Conn or Discon Time Of 3</string>
+    <string name="etCon3">Connection 3</string>
+    <string name="etDiscon3">DisConnection 3</string>
+    <string name="btnSave">SAVE</string>
+
+
+    <string name="menu_setting">Setting</string>
+    <string name="menu_aboutus">About Apps</string>
+    <string name="menu_helpline">Help Line</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+    <string name="user_name">Login User Name</string>
+    <string name="user_details">CPA TOS</string>
+    <string name="url" translatable="false">"http://cpatos.gov.bd/PcsOracle/index.php/pilotageApp/ReportController/Report/"</string>
+
+
+    <string name="module_common">Other</string>
+
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content"> CPA </string>
+
+    <string name="toast_login_activity_user">User Name is Empty</string>
+    <string name="toast_login_activity_password">Password is Empty</string>
+    <string name="toast_login_activity_tryagain">Please Try again</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_web_view">FullscreenActivity</string>
+
+    <string name="send_otp">Send OTP</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="received_message">Received Message</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="container_number">Container Number:<font color='#FF0000'>*</font></string>
+    <string name="truck_no">Truck No:<font color='#FF0000'>*</font></string>
+    <string name="driver_card_no">Driver Card No:<font color='#FF0000'>*</font></string>
+    <string name="driver_mobile_no">Driver Mobile No:<font color='#FF0000'>*</font>(Ex:01600000000)</string>
+    <string name="time_slot">Time Slot:<font color='#FF0000'>*</font></string>
+
+    <!-- Pilot App String-->
+    <string name="date">Date(YYYY-MM-DD)</string>
+    <string name="time">Time(HHMM)</string>
+
+
+</resources>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFFFF"
+    tools:context=".pilot.activities.AddAdditionalInformationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <LinearLayout
+            android:id="@+id/liLay04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            android:background="#FAE4FC"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:hint="Additional Tug"
+                    android:textColor="@android:color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEditionalTug"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:text="0"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@android:color/black"
+                         />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:hint="Additional Pilot"
+                    android:textColor="@android:color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etAdditionalPilot"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:text="0"
+                        android:maxLines="1"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@android:color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:hint="Remarks"
+                    android:textColor="@android:color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etRemarks"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:text="N/A"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.?/-"
+                        android:textColor="@android:color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:hint="DRAUGHT(MAX)"
+                    android:textColor="@android:color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etDraught"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@android:color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/liLay01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FAE4FC"
+            >
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/swEngine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginRight="20dp"
+                android:text="16.MAIN ENGINES IN GOOD WORKING CONDITION?"
+                app:showText="true"
+                android:checked="true"
+                android:textOff="NO"
+                android:textOn ="YES"
+                app:track="@drawable/custom_track"
+                android:thumb="@drawable/custom_thumb"
+                android:layout_marginEnd="5dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/liLay03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FAE4FC"
+            >
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/swAnchor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:checked="true"
+                android:layout_marginRight="20dp"
+                android:text="17. TWO ANCHORS IN GOOD WORKING CONDITION?"
+                app:showText="true"
+                android:textOff="NO"
+                android:textOn ="YES"
+                app:track="@drawable/custom_track"
+                android:thumb="@drawable/custom_thumb"
+                android:layout_marginEnd="5dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/liLay06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FAE4FC"
+            >
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/swRudder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:checked="true"
+                android:layout_marginRight="20dp"
+                android:text="18. RUDDER INDICATOR IN GOOD WORKING CONDITION?"
+                app:showText="true"
+                android:textOff="NO"
+                android:textOn ="YES"
+                app:track="@drawable/custom_track"
+                android:thumb="@drawable/custom_thumb"
+                android:layout_marginEnd="5dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/liLay05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FAE4FC"
+            >
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/swRpm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginRight="20dp"
+                android:checked="true"
+                android:text="19. RPM INDICATOR IN GOOD WORKING CONDTION?"
+                app:showText="true"
+                android:textOff="NO"
+                android:textOn ="YES"
+                app:track="@drawable/custom_track"
+                android:thumb="@drawable/custom_thumb"
+                android:layout_marginEnd="5dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/liLay07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FAE4FC"
+            >
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/swBowthruster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginRight="20dp"
+                android:checked="true"
+                android:text="20. BOW THRUSTER AVAILABLE?"
+                app:showText="true"
+                android:textOff="NO"
+                android:textOn ="YES"
+                app:track="@drawable/custom_track"
+                android:thumb="@drawable/custom_thumb"
+                android:layout_marginEnd="5dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/liLay08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FAE4FC"
+            >
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/swSoalConvention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginRight="20dp"
+                android:text="21. ARE YOU COMPLYING SOLAS CONVENTION?"
+                android:checked="true"
+                app:showText="true"
+                android:textOff="NO"
+                android:textOn ="YES"
+                app:track="@drawable/custom_track"
+                android:thumb="@drawable/custom_thumb"
+                android:layout_marginEnd="5dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/liLay09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FAE4FC"
+                >
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/swdayNight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginRight="20dp"
+                    android:text="IS NIGHT SHIFT?"
+                    android:checked="false"
+                    app:showText="true"
+                    android:textOff="NO"
+                    android:textOn ="YES"
+                    app:track="@drawable/custom_track"
+                    android:thumb="@drawable/custom_thumb"
+                    android:layout_marginEnd="5dp" />
+
+
+            </LinearLayout>
+        <LinearLayout
+                android:id="@+id/liLay10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FAE4FC"
+                >
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/swHoliday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginRight="20dp"
+                    android:text="IS HOLIDAY?"
+                    android:checked="false"
+                    app:showText="true"
+                    android:textOff="NO"
+                    android:textOn ="YES"
+                    app:track="@drawable/custom_track"
+                    android:thumb="@drawable/custom_thumb"
+                    android:layout_marginEnd="5dp" />
+
+
+            </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <Button
+                    android:id="@+id/btnSaveAndNext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:onClick="btnTakePhoto"
+                    android:text="Next"
+                    tools:ignore="OnClick" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
